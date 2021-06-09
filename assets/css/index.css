@@ -1,0 +1,494 @@
+
+body{
+       background: #dadada;
+       font-family: roboto;
+       text-align: center;
+       color: #fff;
+   }
+.container-fluid-testimonial{
+       background: rgb(169 169 169);
+       box-shadow: 5px 0px 18px 5px #f7f7f7;
+       margin-left: 14px;
+       margin-right: 14px;
+       padding-bottom: 50px;
+   }
+.cinnamon{
+       font-family: 'Courgette', cursive;
+       font-size: 2rem;
+       padding-left: 65pt;
+       padding-top: 47px;
+   }
+   .lead{
+       font-family: 'Courgette', cursive; 
+   }
+   .rasa{
+       font-size: 1rem;
+       padding-left: 65pt;
+       font-style: normal;
+       font-family: sans-serif;
+       
+   }
+   .pasanbtn{
+       font-size: 1rem;
+       padding-left: 65pt;
+   }
+   .btn-outline-dark {
+       color: #DCDCDC;
+       background-color: #DCDCDC;
+       border-color: #DCDCDC;
+   }
+   .a {
+       color: #28a745;
+       text-decoration: none;
+       background-color: transparent;
+   }
+   .a:hover{
+       text-decoration: none;
+   }
+   .rounded-circle {
+       border-radius: 50%!important;
+       background-color: bisque;
+       padding-bottom: 5px;
+   }
+   .navbar-brand{
+       position: fixed;
+       text-align: center;
+       z-index: 999;
+       top: 0px;
+       width: 100%;
+       padding-top: 9px;
+       padding-bottom: 4.7125rem;
+       background:#fff;height:60px;border-bottom:1px solid #ddd;
+       margin-bottom: 10px;
+       margin-left: -129px;
+       height: 73px;
+   }
+   .card-body {
+       border: solid;
+   }
+   .card-text{
+       padding: 0mm;
+       margin-bottom: 2px;
+       padding-left: 14px;
+   }
+   .icon-quote {
+       text-align: center;
+   }
+   hr {
+       margin-top: 0rem;
+       margin-bottom: 0rem;
+       /* border-top: 1px solid rgba(0,0,0,.1); */
+   }
+   .example-image-link {
+       width: 100px;
+       height: 100px;
+   }
+   .btn.btn-outline-info.btn-lg.btn-block:hover{
+       background-color: pink;
+       text-decoration-color: blanchedalmond;
+       text-decoration-style: none;
+   }
+   #mainNav{
+       background-color: whitesmoke;
+   }
+   #video{
+       top: 0;
+       bottom: 0;
+       left: 27px;
+       width: 84%;
+       height: 150%;
+       border: 0;
+       padding: 0%;
+   }
+   .card{
+       float: left;
+       
+   }
+   #cardvidio{
+       margin-right: 25px;
+       margin-left: -15px;
+       margin-top: 14px;
+       margin-bottom: 9px;
+       
+   }
+   #boxvideo{
+       background-color: rgb(206, 206, 206);
+       margin-right: 1px;
+       border: 0;
+       margin-bottom: 15px;
+       margin-bottom: -1px;
+       /* float: left; */
+   }
+   
+   .txtNamaVideo{
+       font-family: 'Courgette', cursive;
+       font-size: 1rem;
+       background-color: rgb(206, 206, 206);
+       
+       margin-bottom: -4px;
+       margin-left: 1px;
+       margin-top: -4px;
+       padding-top: 10px;
+   }
+   
+   #carouselMobile{
+       display: none;
+   }
+   
+   #paginate{
+       display: none;
+   }
+   .txtNamaVideo .tooltiptext {
+     visibility: hidden;
+     width: 120px;
+     background-color: #555;
+     color: #fff;
+     text-align: center;
+     border-radius: 6px;
+     padding: 5px 0;
+     position: absolute;
+     z-index: 1;
+     bottom: 125%;
+     left: 50%;
+     margin-left: -60px;
+     opacity: 0;
+     transition: opacity 0.3s;
+   }
+   
+   .txtNamaVideo .tooltiptext::after {
+     content: "";
+     position: absolute;
+     top: 60%;
+     left: 50%;
+     margin-left: -5px;
+     border-width: 5px;
+     border-style: solid;
+     border-color: #555 transparent transparent transparent;
+   }
+   
+   .txtNamaVideo:hover .tooltiptext {
+     visibility: visible;
+     opacity: 1;
+   }
+   @media screen and (max-width: 780px) {
+   .container-fluid-testimonial{
+       margin-left: 14px;
+       margin-right: 14px;
+       }
+   .cinnamon {
+       font-family: 'Courgette', cursive;
+       font-size: 3rem;
+       padding-top: 13px;
+       padding-left: 12px;
+       color: #4a4022;
+       font-size: 36px;
+       text-shadow: rgb(255, 255, 255);
+       font-weight: bold;
+       margin-top: 52px;
+       }
+   .rasa{
+       font-family: 'Courgette', cursive;
+       font-weight: bold;
+       font-size: 1rem;
+       color: wheat;
+       margin-top: 32px;
+       padding-left: 41pt;    
+       }
+   #gambarbawah{
+       width: 50%;
+   }
+   #home{
+       background-color: tomato;
+       background-image: url("<?php echo base_url() . 'assets/images/cinnamonrm.jpg'; ?>");
+       background-repeat: no-repeat;
+       background-size: cover;
+   }
+   #btnPesan{
+       color: #d39e00;
+       font-weight: 900;
+       background-color: #545b62;
+       margin-bottom: 49px;
+       margin-top: -12px;
+       padding-left: 11px;
+       margin-left: -71px;
+   }
+   #gambarcinamon{
+       display: none;
+       } 
+     
+   .navbar-brand.js-scroll-trigger.text-center{
+       background-color: transparent;
+       width: 100%;
+   }
+   
+   #mainNav{
+       background-color: whitesmoke;
+   }
+   
+   #cardvidio{
+       margin-right: 13px;
+       margin-left: -9px;
+       margin-top: 8px;
+       margin-bottom: 13px;
+   }
+   
+   .embed-responsive {
+       position: relative;
+       display: block;
+       width: 107%;
+       padding: 0;
+       overflow: hidden;
+       margin-left: -30px;
+       padding: 0;
+       padding-left: -19px;
+   }
+   
+   #video{
+       top: 0;
+       bottom: 0;
+       left: 0;
+       width: 84%;
+       height: 150%;
+       border: 0;
+       padding: 0%;
+   }
+   #carouselMobile{
+       display:contents;
+   }
+   #fotokue{
+       display: none;
+   }
+   .txtNamaVideo{
+       font-family: 'Courgette', cursive;
+       font-size: 1rem;
+       background-color: rgb(206, 206, 206);
+       margin-left: -19px;
+       margin-bottom: 21px;
+       margin-top: -6px;
+   }
+   
+   #boxvideo {
+       background-color: rgb(206, 206, 206);
+       margin-right: 30px;
+       border: 0;
+       margin-bottom: -1px;
+   }
+   
+   .pagination {
+       margin-left: 116px;
+   }
+   
+   
+   }
+   
+   @media screen and (max-width: 576px) {
+   .container-fluid-testimonial{
+       margin-left: 14px;
+       margin-right: 14px;
+       }
+   .cinnamon {
+       font-family: 'Courgette', cursive;
+       font-size: 3rem;
+       padding-top: 13px;
+       padding-left: 12px;
+       color: #4a4022;
+       font-size: 36px;
+       text-shadow: rgb(255, 255, 255);
+       font-weight: bold;
+       margin-top: 52px;
+       }
+   .rasa{
+       font-family: 'Courgette', cursive;
+       font-weight: bold;
+       font-size: 1rem;
+       color: wheat;
+       margin-top: 32px;
+       padding-left: 41pt;    
+       }
+   #gambarbawah{
+       width: 50%;
+   }
+   #home{
+       background-color: tomato;
+       background-image: url("<?php echo base_url() . 'assets/images/cinnamonrm.jpg'; ?>");
+       background-repeat: no-repeat;
+       background-size: cover;
+   }
+   #btnPesan{
+       color: #d39e00;
+       font-weight: 900;
+       background-color: #545b62;
+       margin-bottom: 49px;
+       margin-top: -12px;
+       padding-left: 11px;
+       margin-left: -71px;
+   }
+   #gambarcinamon{
+       display: none;
+       } 
+     
+   .navbar-brand.js-scroll-trigger.text-center{
+       background-color: transparent;
+       width: 100%;
+   }
+   
+   #mainNav{
+       background-color: whitesmoke;
+   }
+   
+   #cardvidio{
+       margin-right: 49px;
+       margin-left: -9px;
+       margin-top: 8px;
+       margin-bottom: 13px;
+   }
+   
+   .embed-responsive {
+       position: relative;
+       display: block;
+       width: 104%;
+       padding: 0;
+       overflow: hidden;
+   }
+   
+   #video{
+       top: 0;
+       bottom: 0;
+       left: 39px;
+       width: 86%;
+       height: 152%;
+       border: 0;
+       padding: 0%;
+   }
+   #carouselMobile{
+       display:contents;
+   }
+   #fotokue{
+       display: none;
+   }
+   .txtNamaVideo{
+       font-family: 'Courgette', cursive;
+       font-size: 1rem;
+       background-color: rgb(206, 206, 206);
+       margin-left: 4px;
+       margin-bottom: 21px;
+       margin-top: -6px;
+   }
+   
+   #boxvideo {
+       background-color: rgb(206, 206, 206);
+       margin-right: 40px;
+       border: 0;
+       margin-bottom: -1px;
+       margin-left: 52px;
+   }
+   
+   .pagination {
+       margin-left: 65px;
+   }
+   
+   
+   }
+   
+   @media screen and (max-width: 320px) {
+   .container-fluid-testimonial{
+       margin-left: 14px;
+       margin-right: 14px;
+       }
+   .cinnamon {
+       font-family: 'Courgette', cursive;
+       font-size: 3rem;
+       padding-top: 13px;
+       padding-left: 12px;
+       color: #4a4022;
+       font-size: 36px;
+       text-shadow: rgb(255, 255, 255);
+       font-weight: bold;
+       margin-top: 52px;
+       }
+   .rasa{
+       font-family: 'Courgette', cursive;
+       font-weight: bold;
+       font-size: 1rem;
+       color: wheat;
+       margin-top: 32px;
+       padding-left: 41pt;    
+       }
+   #gambarbawah{
+       width: 50%;
+   }
+   #home{
+       background-color: tomato;
+       background-image: url("<?php echo base_url() . 'assets/images/cinnamonrm.jpg'; ?>");
+       background-repeat: no-repeat;
+       background-size: cover;
+   }
+   #btnPesan{
+       color: #d39e00;
+       font-weight: 900;
+       background-color: #545b62;
+       margin-bottom: 49px;
+       margin-top: -12px;
+       padding-left: 11px;
+       margin-left: -71px;
+   }
+   #gambarcinamon{
+       display: none;
+       } 
+     
+   .navbar-brand.js-scroll-trigger.text-center{
+       background-color: transparent;
+       width: 100%;
+   }
+   
+   #mainNav{
+       background-color: whitesmoke;
+   }
+   
+   #cardvidio {
+       margin-right: 13px;
+       margin-left: -22px;
+       margin-top: 8px;
+       margin-bottom: 13px;
+   }
+   
+   #testimonial {
+       margin-left: 14px;
+       margin-right: 14px;
+       width: 94%;
+   }
+   #video {
+       top: 0;
+       bottom: 0;
+       left: 10px;
+       width: 85%;
+       height: 141%;
+       border: 0;
+       padding: 0%;
+   }
+   #carouselMobile{
+       display:contents;
+   }
+   #fotokue{
+       display: none;
+   }
+   .txtNamaVideo {
+       font-family: 'Courgette', cursive;
+       font-size: 1rem;
+       background-color: rgb(206, 206, 206);
+       margin-left: -35px;
+       margin-bottom: 21px;
+       margin-top: -6px;
+   }
+   
+   #boxvideo {
+       background-color: rgb(206, 206, 206);
+       margin-right: -6px;
+       border: 0;
+       margin-bottom: -1px;
+   }
+   
+   .pagination {
+       margin-left: 65px;
+   }
+}
